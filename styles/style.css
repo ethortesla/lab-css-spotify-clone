@@ -6,3 +6,220 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Almarose-Regular";
+  src: url("C:/Users/Goku 69/Documents/Ironhack Bootcamp/Main Course/collab-sergio/lab-css-spotify-clone/fonts/Almarose/Almarose-Regular.otf");
+}
+
+@font-face {
+  font-family: "Almarose-Thin";
+  src: url("C:/Users/Goku 69/Documents/Ironhack Bootcamp/Main Course/collab-sergio/lab-css-spotify-clone/fonts/Almarose/Almarose-Thin.otf");
+}
+
+h1 {
+  color: white;
+  /* text-align: center;
+    line-height: 731px; */
+  font-family: "Almarose-Regular";
+  font-size: 108px;
+  letter-spacing: 2px;
+}
+
+#subheader {
+  color: white;
+  font-size: 38px;
+  width: 1061px;
+  text-align: center;
+  position: relative;
+  top: -49px;
+}
+
+#banner {
+  background-image: url("C:/Users/Goku 69/Documents/Ironhack Bootcamp/Main Course/collab-sergio/lab-css-spotify-clone/images/landing.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position-y: -157px;
+  background-position-x: 77%;
+  height: 1110px;
+  position: relative;
+  top: 130.05px;
+  z-index: -1;
+}
+
+#banner > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 214px;
+}
+
+/* #header {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+} */
+
+#header nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 20px;
+  position: fixed;
+  top: 0 !important;
+  left: 0 !important;
+  width: 98vw;
+}
+
+#header nav div > a {
+  padding: 0px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+}
+
+.spotify-logo /*Header Spotify Logo*/ {
+  width: 300px;
+  padding-left: 36px;
+}
+
+#main-nav-links {
+  padding: 25px;
+}
+
+#spotify-info {
+  height: 820px;
+  position: relative;
+  top: -15px;
+  background-color: white;
+  z-index: -1;
+}
+
+#spotify-info > div:nth-child(1) {
+  text-align: center;
+  font-size: 52px;
+  font-family: "Almarose-Regular";
+  font-weight: 600;
+  color: black;
+}
+
+.green-underline {
+  height: 5px;
+  width: 450px;
+  background-color: hsl(157deg 97% 35%);
+  border: none;
+  margin: 5px auto auto auto;
+}
+
+.title-with-underline-combo {
+  padding: 70px 0;
+}
+
+/* Number ”３”　is not */
+
+.３x１-box-info {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  text-align: center;
+  align-items: baseline;
+  font-family: "Almarose-Regular";
+}
+
+.３x１-box-info > div {
+  width: 450px;
+}
+
+.３x１-box-info > div h4 {
+  font-size: 36px !important;
+  font-weight: bold !important;
+  color: hsl(157deg 97% 35%);
+}
+
+.３x１-box-info > div p {
+  font-size: 27px !important;
+  padding: 0 74px;
+  margin: 0 auto auto auto;
+}
+
+.３x１-box-info div > img {
+  width: 250px;
+}
+
+#kanye-bottom {
+  background: url("C:/Users/Goku 69/Documents/Ironhack Bootcamp/Main Course/collab-sergio/lab-css-spotify-clone/images/spotify-icon-white.png"),
+    hsl(156deg 93% 36%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px;
+  height: 1148px;
+  width: 97%;
+  margin: auto;
+}
+
+#kanye-bottom div > img /*Kanye Blurb Image*/ {
+  width: 450px;
+  padding: 0 70px 29px 0;
+}
+
+#kanye-bottom div {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  align-items: flex-end;
+  height: 1087px;
+}
+
+.white-underline {
+  height: 5px;
+  width: 680px;
+  background-color: white;
+  border: none;
+
+  /* margin: 5px auto auto auto; */
+}
+
+#kanye-bottom > div > div:nth-child(1) {
+  flex-direction: column;
+}
+
+#kanye-bottom > div > div:nth-child(1) div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 680px;
+  color: white;
+  font-family: "Almarose-Regular";
+  font-size: 36px;
+}
+
+#kanye-bottom div div div > h4 {
+  font-size: 52px;
+  font-family: "Almarose-Regular";
+  font-weight: 600;
+  color: white;
+  margin: auto auto 0 auto;
+  width: 680px;
+}
+#kanye-bottom h5 {
+  font-size: 42px;
+  margin: 0;
+}
+
+#kanye-bottom p {
+  font-size: 28px;
+  margin: 50px 0 0 0;
+  width: 435px;
+}
